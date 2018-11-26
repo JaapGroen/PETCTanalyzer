@@ -1,4 +1,79 @@
 {
-"results": {
-"Head_Noise": {"display_level": 1, "display_name": "CT Noise", "constraint_minlowhighmax": [0, 0, 5, 10], "units": "HU", "description": "CT Noise"}, "Head_HU_water": {"display_level": 1, "display_name": "CT water", "constraint_minlowhighmax": [-5, -4, 4, 5], "units": "HU", "description": "CT density of water"}, "TeflonSegmentation": {"display_level": 2, "display_name": "Teflon ROI", "description": "Segmentation of the teflon part in the body"}, "Body_HU_teflon": {"display_level": 1, "display_name": "Teflon density body", "constraint_minlowhighmax": [910, 920, 940, 950], "units": "HU", "description": "CT density of the teflon part"}, "BodySegmentation": {"display_level": 2, "display_name": "Body Segmentation", "description": "Segmentation of the body phantom"}, "AcquisitionDateTime": {"constraint_period": 7, "display_level": 1, "display_name": "DateTime", "description": "date and time of acquisition", "units": ""}, "Uniformity": {"display_level": 1, "display_name": "Uniformity", "constraint_minlowhighmax": [-4, -3, 3, 4], "units": "HU", "description": "CT uniformity"}, "HeadSegmentation": {"display_level": 2, "display_name": "Body Segmentation", "description": "Segmentation of the head phantom"}, "Body_HU_main": {"display_level": 1, "display_name": "Body density", "constraint_minlowhighmax": [90, 100, 120, 130], "units": "HU", "description": "CT density of the body part"}, "Body_HU_water": {"display_level": 1, "display_name": "Water density body", "constraint_minlowhighmax": [-5, -4, 4, 5], "units": "HU", "description": "CT density of the water part"}, "WaterSegmentation": {"display_level": 2, "display_name": "Water ROI", "description": "Segmentation of the water part in the body"}}, "metaformat": "20180910", "comments": {
-"creator": "custom", "author": "Jaap Groen, OLVG", "description": "meta.json for PETCTanalyzer for Philips PET-CT CT quality"}}
+  "results": {
+    "Head_Noise": {
+      "display_level": 1, 
+      "display_name": "CT Noise", 
+      "constraint_minlowhighmax": [0, 0, 5, 10], 
+      "units": "HU", 
+      "description": "CT Noise"
+    }, 
+    "Head_HU_water": {
+      "display_level": 1, 
+      "display_name": "CT water", 
+      "constraint_minlowhighmax": [-5, -4, 4, 5], 
+      "units": "HU", 
+      "description": "CT density of water"
+    }, 
+    "TeflonSegmentation": {
+      "display_level": 2, 
+      "display_name": "Teflon ROI", 
+      "description": "Segmentation of the teflon part in the body"
+    }, 
+    "Body_HU_teflon": {
+      "display_level": 1, 
+      "display_name": "Teflon density body", 
+      "constraint_minlowhighmax": [910, 920, 940, 950], 
+      "units": "HU", 
+      "description": "CT density of the teflon part"
+    }, 
+    "BodySegmentation": {
+      "display_level": 2, 
+      "display_name": "Body Segmentation", 
+      "description": "Segmentation of the body phantom"
+    }, 
+    "AcquisitionDateTime": {
+      "constraint_period": 7, 
+      "display_level": 1, 
+      "display_name": "DateTime", 
+      "description": "date and time of acquisition", 
+      "units": ""
+    }, 
+    "Uniformity": {
+      "display_level": 1, 
+      "display_name": "Uniformity", 
+      "constraint_minlowhighmax": [-4, -3, 3, 4], 
+      "units": "HU", 
+      "description": "CT uniformity"
+    }, 
+    "HeadSegmentation": {
+      "display_level": 2, 
+      "display_name": "Body Segmentation", 
+      "description": "Segmentation of the head phantom"
+    }, 
+    "Body_HU_main": {
+      "display_level": 1, 
+      "display_name": "Body density", 
+      "constraint_minlowhighmax": [90, 100, 120, 130], 
+      "units": "HU", 
+      "description": "CT density of the body part"
+    }, 
+    "Body_HU_water": {
+      "display_level": 1, 
+      "display_name": "Water density body", 
+      "constraint_minlowhighmax": [-5, -4, 4, 5], 
+      "units": "HU", 
+      "description": "CT density of the water part"
+    }, 
+    "WaterSegmentation": {
+      "display_level": 2, 
+      "display_name": "Water ROI", 
+      "description": "Segmentation of the water part in the body"
+    }
+  }, 
+  "metaformat": "20180910", 
+  "comments": {
+    "creator": "custom", 
+    "author": "Jaap Groen, OLVG", 
+    "description": "meta.json for PETCTanalyzer for Philips Vereos PET-CT CT quality"
+  }
+}
