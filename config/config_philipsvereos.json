@@ -1,0 +1,33 @@
+{
+    "actions": {
+        "acqdatetime": {
+            "filters": {}, 
+            "params": {}
+        }, 
+        "header_series": {
+            "filters": {}, 
+            "params": {},
+            "tags":{}
+        }, 
+        "ct_series": {
+            "filters": {}, 
+            "params": {
+                "ct_tests":{
+                    "Head":{
+                        "SeriesDescription":"IQCheck Head With ROIs"
+                    },
+                    "Body":{
+                        "SeriesDescription":"IQCheck Body With ROIs"
+                    }
+                }
+            }
+        }
+    },
+	"cfgformat":"20180910",
+    "comments": {
+        "author": "Jaap Groen, OLVG", 
+        "description": "for Vereos PET-CT", 
+        "params": {}, 
+        "version": "20181123"
+    }
+}
