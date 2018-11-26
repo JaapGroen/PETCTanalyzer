@@ -20,10 +20,8 @@
 #
 #
 # Changelog:
-#   20180209: first complete version
-#
-# cd c:\Users\Jaap\Desktop\python
-# python modules\MRI_ACR.py -r results.json -c configs\config_PDF.json -d images\study5
+#   20181126: first complete version
+
 
 from __future__ import print_function
 
@@ -345,9 +343,11 @@ def CT_analysis(data, results, action):
     for serie in series:
         if 'SeriesDescription' in serie[0]:
             if serie[0].SeriesDescription==params['ct_tests']['Head']['SeriesDescription']:
+                print('Running head analysis')
                 Head_analysis(serie, results)
             if serie[0].SeriesDescription==params['ct_tests']['Body']['SeriesDescription']:
                 Body_analysis(serie, results)
+                print('Running body analysis')
           
 if __name__ == "__main__":
     #import the pyWAD framework and get some objects
@@ -366,7 +366,7 @@ if __name__ == "__main__":
         elif name == 'header_series':
            header_series(data, results, action)
 
-        # run the COR analysis
+        # run the CT analysis
         elif name == 'ct_series':
             CT_analysis(data, results, action)
 
